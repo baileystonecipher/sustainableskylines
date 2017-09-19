@@ -4,7 +4,16 @@
 	padding: 20px;
 }
 
+.ui_menu {
+	background-color: #bfe6ff;
+	padding: 10px;
+}
 
+.ui_menu a {
+	font-family: 'Amatic SC';
+	font-size: 2em;
+	padding: 20px;	
+}
 
 
 /*.hamburger {
@@ -23,7 +32,6 @@
 
 
 /*Mission + Intro */
-
 
 img {
 	width: 30%;
@@ -48,6 +56,46 @@ img {
 	font-family: 'Raleway';
 	font-size: 0.5em;
 }
+
+
+/* In the Skies (Case Studies) */
+
+.casestudy {
+	clear: both;
+	padding: 20px;
+	width: 100%;
+}
+
+.casestudy h1 {
+	font-family: 'Amatic SC';
+	clear: both;
+}
+
+.casestudy iframe {
+	clear: both;
+}
+
+#logo_text {
+	padding: 10px;
+	margin-top: 20px;
+	clear: both;
+	background-color: #113366;
+}
+
+#logo_text p {
+	padding-top: 25px;
+	font-family: 'Raleway';
+	color: white;
+}
+
+#logo_text img {
+	float: left;
+	width: 20%;
+}
+
+
+
+
 
 /* Contact Us Form */
 
