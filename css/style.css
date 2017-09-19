@@ -27,17 +27,34 @@ img {
 
 /* Contact Us Form */
 
+#contactform {
+	background-color: #bfe6ff;
+	padding: 5px;
+	padding-bottom: 30px;
+	margin: 15px;
+}
+
 #formlabel {
 	font-family: 'Amatic SC';
 	font-size: 2em;
-	/*padding-left: 20px;*/
+	padding-left: 20px;
 }
 
 form {
 	font-family: 'Raleway';
 }
 
-.item {
+.form_imput {
 	font-family: 'Raleway';
 	font-size: 1em;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+input[type=text] {
+   width: 300px;
+}
+
+input[type=email] {
+   width: 330px;
 }
