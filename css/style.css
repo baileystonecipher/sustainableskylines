@@ -1,20 +1,25 @@
 .item {
-	font-family: 'Amatic SC';
+	
 	font-size: 2em;
 	padding: 20px;
 }
 
 .ui_menu {
-	background-color: #bfe6ff;
+	/*background-color: #bfe6ff;*/
 	padding: 10px;
 }
 
 .ui_menu a {
-	font-family: 'Amatic SC';
-	font-size: 2em;
+	font-family: 'open sans';
+	font-size: 1em;
 	padding: 20px;	
 }
 
+img {
+	width: 20%;
+	/*padding: 25px;
+	float: left;*/
+}
 
 /*.hamburger {
 	background-color: black;
@@ -33,14 +38,14 @@
 
 /*Mission + Intro */
 
-img {
-	width: 30%;
-	padding: 25px;
-	float: left;
-}
+
 
 #mission {
 	padding: 15px;
+}
+
+#mission img {
+	width: 100%;
 }
 
 #mission_text {
@@ -49,7 +54,8 @@ img {
 }
 
 #mission_text h1 {
-	font-family: 'Amatic SC';
+	font-family: 'Open sans';
+	font-size: 1.5em;
 }
 
 #mission_text p {
@@ -76,21 +82,22 @@ img {
 }
 
 #logo_text {
-	padding: 10px;
-	margin-top: 20px;
-	clear: both;
-	background-color: #113366;
+/*	padding: 10px;
+	margin-top: 20px;*/
+	/*clear: both;
+	background-color: #113366;*/
 }
 
 #logo_text p {
-	padding-top: 25px;
 	font-family: 'Raleway';
-	color: white;
+	color: black;
+	padding-top: 50px;
+	/*width: 66%;*/
 }
 
 #logo_text img {
 	float: left;
-	width: 20%;
+	width: 33%;
 }
 
 
@@ -103,7 +110,7 @@ img {
 	background-color: #bfe6ff;
 	padding: 5px;
 	padding-bottom: 30px;
-	margin: 15px;
+	margin: 50px;
 	clear: both;
 }
 
